@@ -2,6 +2,8 @@
 
 This project proposes a post-hoc Learning to Defer (L2D) system for multi-label chest X-ray classification that controls deferral rate and false negative rate (FNR) under domain shift. The system uses a frozen pre-trained DenseNet121 backbone and a two-stage Selective Conformal Risk Control (SCRC) framework, with GNN-enhanced Density Ratio Estimation (DRE) to handle covariate shift.
 
+Please read the [full paper](GNN-l2d.pdf): 
+
 ## Key Contributions
 
 1. **GNN-enhanced DRE**: Uses Label-GCN (ML-GCN) output probabilities as the feature space for density ratio estimation, exploiting co-occurrence structure to achieve higher Effective Sample Size (ESS) than LR or MLP baselines.
